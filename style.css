@@ -50,3 +50,32 @@
 .p2{
     width: 20%;
 }
+
+.hero{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.hero-info{
+    width: 50%;
+}
+.hero-name{
+    width: 100%;
+    border-bottom: 3px solid red;
+}
+.hero-name h2{
+    font-size: 48px;
+}
+
+.hero-details{
+    text-align: right;
+}
+.hero-details h1{
+    font-size: 36px;
+}
+.hero-image {
+    width: 50%;
+}
+.hero-image img{
+    max-width: 100%;
+}
